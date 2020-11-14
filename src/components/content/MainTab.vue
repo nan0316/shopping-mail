@@ -9,7 +9,7 @@
         <div slot="icon" class="fa fa-th-large icon"></div>
         <div slot="text">分类</div>
       </TabBarItem>
-      <TabBarItem path="cart" col="green">
+      <TabBarItem path="/cart" col="green">
         <div slot="icon" class="fa fa-shopping-cart icon"></div>
         <div slot="text">购物车</div>
       </TabBarItem>
@@ -22,8 +22,8 @@
 </template>
 
 <script>
-    import TabBar from "../common/tabbar/Tabbar"
-    import TabBarItem from "../common/tabbar/TabbarItem"
+    import TabBar from "../common/tabbar/TabBar"
+    import TabBarItem from "../common/tabbar/TabBarItem"
     export default {
         name: "MainTab",
         components:{

@@ -1,12 +1,12 @@
 <template>
-  <div class="category">
-    <h1>this is category</h1>
-  </div>
+    <div>
+        <h1>分类</h1>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "category"
+        name: "Category"
     }
 </script>
 

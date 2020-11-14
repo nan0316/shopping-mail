@@ -3,14 +3,14 @@
     padding: 0;
 }
 body{
-    color: #333333;
-    font-size: 14px;
+    color: #333;
 }
 li{
     list-style: none;
 }
 img{
     vertical-align: middle;
+    border: noen;
 }
 a{
     text-decoration: none;
