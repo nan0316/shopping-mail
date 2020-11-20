@@ -8,7 +8,8 @@ import {actions} from "./actions";
 Vue.use(Vuex)
 
 const state = {
-
+    cart:[],
+    isChecked:true
 }
 
 const store = new Vuex.Store({
